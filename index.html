@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+  <script defer src="bundle.js?a6bf616f1f1c9a473925"></script><link href="index.css?a6bf616f1f1c9a473925" rel="stylesheet"></head>
+  <body>
+    <div class="content">
+      <div class="header">
+        <div id="title">
+          <span id="name">Tel Aviv</span>
+          <button id="searchBtn" type="button">+</button>
+        </div>
+        <div id="search-box">
+          <input type="text" id="place" name="place" pattern="[A-Za-z]*" />
+          <button id="search-bar-button" type="button">&#10003;</button>
+
+          <span class="error"></span>
+        </div>
+        <div id="loading"></div>
+      </div>
+      <div class="main">
+        <span id="temp">29</span>
+      </div>
+      <div class="info">
+        <span id="feel-temp">Feels like 30</span>
+        <span id="wind">4kn</span>
+        <span id="humidity">73%</span>
+      </div>
+    </div>
+  </body>
+</html>
